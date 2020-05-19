@@ -1,27 +1,28 @@
 h1, p {
   font-family: Lato;
 }
-/* #root div{
+#root div{
   display: flex;
   flex-wrap:wrap-reverse;
   justify-content: center;
-} */
+  flex-direction: row;
+}
 .text-class{
   align-self: center;
   background-color:rgb(228, 212, 212);
-  display: flex;
-  flex-wrap:wrap-reverse;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-wrap:wrap-reverse; */
+  /* justify-content: center; */
 }
 .text-h1{
   width:100%;
 }
 .parent-div{
-  /* padding:20px 0px 30px 0px; */
-  /* display: flex;
-  flex-wrap:wrap-reverse;
-  justify-content: center; */
-  background-color:red;
+  padding:20px 0px 30px 0px;
+  /* display: flex; */
+  /* flex-wrap:wrap-reverse; */
+  /* justify-content: center; */
+  /* background-color:red; */
   width:31%;
   margin-bottom:35px
 
@@ -31,4 +32,8 @@ body{
   height:100vh;
   width:100%;
   overflow-y: auto
+}
+.individual-item{
+  align-self: stretch;
+    display: flex;
 }

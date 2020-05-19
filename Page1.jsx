@@ -14,6 +14,9 @@ function ListOfItems(props){
          <h1 className="text-h1">{props.item.text}</h1>
       </div>
     </div>
+    <div>
+    <button caption=""></button>
+    </div>
     </div>
 
   )
