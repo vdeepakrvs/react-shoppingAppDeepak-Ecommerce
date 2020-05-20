@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import ListOfItems from './Page1.jsx';
-import DataInfo from './DataInfo.jsx';
+import ListOfItems from './ListOfItems';
+import DataInfo from './DataInfo';
 
-class App extends Component {
+class Product extends Component {
   constructor() {
     super();
     this.state = {
@@ -14,7 +14,6 @@ class App extends Component {
   }
 
   render() {
-    debugger;
     const ItemstoMap = this.state.ListItems.map(item=><ListOfItems key={item.id} item={item}/>)
     return (
       <div>
@@ -24,4 +23,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default Product

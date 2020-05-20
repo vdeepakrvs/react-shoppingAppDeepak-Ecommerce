@@ -8,7 +8,7 @@ function ListOfItems(props) {
           <img
             src={props.item.pic}
             alt={props.item.text}
-            class="img-responsive"
+            className="img-responsive"
           />
         </div>
       </div>

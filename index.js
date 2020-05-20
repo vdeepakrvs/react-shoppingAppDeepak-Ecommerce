@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import App from './Product.jsx';
+import Product from './components/Product';
 
-render(<App />, document.getElementById('root'));
+render(<Product />, document.getElementById('root'));
