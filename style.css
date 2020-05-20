@@ -8,9 +8,10 @@ h1, p {
   flex-direction: row;
 }
 .text-class{
+  width:100%;
   align-self: center;
   background-color:rgb(228, 212, 212);
-  /* display: flex; */
+  display: flex;
   /* flex-wrap:wrap-reverse; */
   /* justify-content: center; */
 }
@@ -34,6 +35,6 @@ body{
   overflow-y: auto
 }
 .individual-item{
-  align-self: stretch;
-    display: flex;
+  /* align-self: stretch; */
+    /* display: flex; */
 }
